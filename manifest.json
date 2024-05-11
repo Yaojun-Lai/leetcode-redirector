@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "LeetCode Redirector",
+    "version": "1.0",
+    "description": "Redirect to LeetCode CN solutions",
+    "permissions": ["activeTab"],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_icon": "icon.png"
+    },
+    "icons": {
+        "48": "icon.png"
+    }
+}
